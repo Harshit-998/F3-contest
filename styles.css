@@ -1,0 +1,80 @@
+body {
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  padding: 40px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.heading {
+  font-size: 32px;
+}
+
+#form {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+input {
+  border: 0.5px solid white;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  margin: 5px 0;
+  margin-right: 60px;
+  border-radius: 3px;
+  min-width: 350px;
+  height: 35px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#error {
+  color: red;
+  /* visibility: hidden; */
+}
+
+#success {
+  color: green;
+}
+
+#enterUser {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+#initial {
+  color: gray;
+}
+
+.empCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid rgb(169, 169, 169);
+  border-radius: 5px;
+  min-width: 400px;
+  padding: 5px 10px;
+  margin: 10px 0;
+  height: 35px;
+}
+
+.employeeDiv {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+
+.delete-employee-button {
+  background-color: white;
+  border: 1px solid black;
+  padding: 13px;
+  border-radius: 8px;
+  height: auto;
+}
